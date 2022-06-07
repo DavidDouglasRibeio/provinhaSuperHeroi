@@ -1,0 +1,23 @@
+(1) /POST       /superheroi
+request[
+    nm_super_heroi	  =	?,
+    ds_super_poder	  =	?,
+    bt_voa			  =	?
+]
+reponse{
+    id_super_heroi	  = ?,
+    nm_super_heroi	  =	?,
+    ds_super_poder	  =	?,
+    bt_voa			  =	?
+}
+
+/////////////////////////////////////////////////////////////////////////////
+
+(2) /GET       /superheroi
+
+reponse{
+    id_super_heroi	  = ?,
+    nm_super_heroi	  =	?,
+    ds_super_poder	  =	?,
+    bt_voa			  =	?
+}
