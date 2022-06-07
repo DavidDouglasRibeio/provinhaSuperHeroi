@@ -2,13 +2,11 @@ import { con } from './connection.js'
 
 export async function InserirHeroi(heroi) {
     const comando =
-    `
-        insert into tb_super_heroi(nm_super_heroi, ds_super_poder, bt_voa)
-            values (?, ?, ?)
-    `;
+    ` insert into tb_super_heroi(nm_super_heroi, ds_super_poder, bt_voa)
+            values (?, ?, ?)`
     
     const [resposta] = await con.query(comando, [heroi.nome, heroi.super_poder, heroi.voa]);
-    heroi.Id = resposta.insertId;
+    heroi.id = resposta.insertId;
     return heroi; 
 }
 

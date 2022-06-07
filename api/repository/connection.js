@@ -15,4 +15,4 @@ const con = await mysql.createConnection({
 })
 
 console.log('BD Conectado família!');
-export { con }
+export { con }  
