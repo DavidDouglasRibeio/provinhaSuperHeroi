@@ -40,6 +40,10 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
+<<<<<<< HEAD
+=======
+  "devDependencies": {},
+>>>>>>> 748acc9ff11af5e9c14d01b83f734954c6a70554
   "keywords": [],
   "author": "",
   "license": "ISC"

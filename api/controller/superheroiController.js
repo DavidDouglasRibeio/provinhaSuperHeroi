@@ -9,7 +9,7 @@ server.post('/superheroi', async(req, resp) => {
     try{
         const  hero  = req.body;
     
-        if(!hero.nome)
+        if(!hero.nome)  
             throw new Error('Campo nome é obrigatório')
         if(!hero.super_poder)
             throw new Error('Campo super poder é obrigatório')
